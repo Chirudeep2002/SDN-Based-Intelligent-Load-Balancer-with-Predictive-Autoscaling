@@ -49,7 +49,7 @@ Parallel Services:
 
 ## 🛠 Technologies Used
 
-- Python
+- Python (make sure to only use python 3.11.x version only)
 - Flask
 - Streamlit
 - Plotly
@@ -59,41 +59,6 @@ Parallel Services:
 
 ---
 
-## 📂 Project Structure
-
-SDN Project/
-│
-├── servers/
-│ ├── server_base.py
-│ ├── server1.py
-│ ├── server2.py
-│ └── server3.py
-│
-├── load_balancer/
-│ ├── balancer.py
-│ ├── autoscale.py
-│ ├── heartbeat.py
-│ ├── predictive_scaler.py
-│ ├── health_manager.py
-│ ├── metrics_manager.py
-│ ├── cpu_weight_manager.py
-│ ├── lb_modes.py
-│ ├── registry.py
-│ └── resource_sim.py
-│
-├── dashboard/
-│ └── dashboard.py
-│
-├── clients/
-│ └── traffic_test.py
-│
-├── metrics.json
-├── lb.log
-├── requirements.txt
-└── README.md
-
-
----
 
 ## ▶️ How to Run
 
@@ -205,6 +170,18 @@ This project demonstrates core concepts of:
 - Fault Tolerance
 
 ---
+## 📸 Dashboard Screenshots
+
+### Monitoring Overview
+
+![Dashboard Screenshot 1](1.png)
+
+---
+
+### Traffic Distribution & Server Statistics
+
+![Dashboard Screenshot 2](2.png)
+
 
 ## 👨‍🎓 Author
 
